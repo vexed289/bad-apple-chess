@@ -10,13 +10,13 @@ Part 1:\
 ~Then to split it into frames, I could use cv2 like I did in another project. I'll try 5 fps for now because I'm just testing, but I'll increase it later.~ (done but i forgot the 5 fps bit oops)\
 ~I put all these frames as png/jpg/whatever into a folder called frames~ (done)\
 ~Then I use some interpolation or whatever to scale each image to 8x8~ (done)\
-Since all pixels are black and white, I'll just convert it into binary where 1 is black and 0 is white and put them into a folder called binary.
+~Since all pixels are black and white, I'll just convert it into binary where 1 is black and 0 is white and put them into a folder called binary.~ this turned out to be unnecessary - i can just merge part 2 with this and directly add the FEN part
 
 Part 2:\
-With the binary approach this seems easier because I'll just use the largest piece for both black and white\
-Then I just add the extra information for the FEN and either make it valid for chess.com (needs king of both colours) or use something else\
-After spending 5 seconds searching stuff up, I think I can use https://www.redhotpawn.com/chess/chess-fen-viewer.php and just use their download feature as that will make part 3 easier\
-But their background is ugly so I might find something else later
+~With the binary approach this seems easier because I'll just use the largest piece for both black and white~\
+~Then I just add the extra information for the FEN and either make it valid for chess.com (needs king of both colours) or use something else~ (done)\
+~After spending 5 seconds searching stuff up, I think I can use https://www.redhotpawn.com/chess/chess-fen-viewer.php and just use their download feature as that will make part 3 easier~ i used chess library instead\
+~But their background is ugly so I might find something else later~
 
 Part 3:\
-Merge downloaded pngs together. I don't want to do it manually so I'll try find a good way of doing it automatically
+~Merge downloaded pngs together. I don't want to do it manually so I'll try find a good way of doing it automatically~ used ffmpeg for this 
