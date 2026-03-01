@@ -7,9 +7,9 @@ We need to split this into 3 parts:
 
 Part 1:\
 ~To get the bad apple video, I'll use a yt-dlp wrapper I made a while back and just put the mp4 into this folder~ (done)\
-Then to split it into frames, I could use cv2 like I did in another project. I'll try 5 fps for now because I'm just testing, but I'll increase it later.\
-I put all these frames as png/jpg/whatever into a folder called frames\
-Then I use some interpolation to scale each image to 8x8\
+~Then to split it into frames, I could use cv2 like I did in another project. I'll try 5 fps for now because I'm just testing, but I'll increase it later.~ (done but i forgot the 5 fps bit oops)\
+~I put all these frames as png/jpg/whatever into a folder called frames~ (done)\
+~Then I use some interpolation or whatever to scale each image to 8x8~ (done)\
 Since all pixels are black and white, I'll just convert it into binary where 1 is black and 0 is white and put them into a folder called binary.
 
 Part 2:\
