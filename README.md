@@ -6,7 +6,7 @@ We need to split this into 3 parts:
  - Displaying this, and merging all the images together into a video
 
 Part 1:
-To get the bad apple video, I'll use a yt-dlp wrapper I made a while back and just put the mp4 into this folder
+~To get the bad apple video, I'll use a yt-dlp wrapper I made a while back and just put the mp4 into this folder~
 Then to split it into frames, I could use cv2 like I did in another project. I'll try 5 fps for now because I'm just testing, but I'll increase it later.
 I put all these frames as png/jpg/whatever into a folder called frames
 Then I use some interpolation to scale each image to 8x8
