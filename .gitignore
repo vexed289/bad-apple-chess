@@ -3,3 +3,4 @@ test.py
 frames
 chessImgs
 .DS_Store
+scripts/__pycache__
